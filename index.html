@@ -1,58 +1,48 @@
 <!DOCTYPE html>
 <html lang="uk">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jeans</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ElOria - Jeans Collection</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <div class="container">
+<div class="container">
     <header>
-      <div class="header-title">Jeans</div>
-      <div class="heart">♡</div>
+        <div class="header-left">
+            <div class="header-title">ElOria</div>
+        </div>
+        <div class="header-right">
+            <div class="heart">♡</div>
+            <a href="pay.html" class="cart-link">
+                🛒 <span id="cart-count">0</span>
+            </a>
+        </div>
     </header>
 
     <div class="products-grid">
-      <div class="product">
-        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxIQEhUSEBAPFhUVFRUVEBAPFRAVEBUVFRUXFhUVFRUYHSggGBolGxUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OGxAPGC0dHx0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSstLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIARIAuAMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAABAAIDBAcFBgj/xABDEAABAwEEBQkDCwMEAwEAAAABAAIRAwQSITEFQVFhcQYHEyKBkaGx8DLB0RRCUmJyc4KisuHxIzSSJFNjwjNDgxX/xAAYAQEBAQEBAAAAAAAAAAAAAAAAAQMCBP/EAB4RAQEAAgMBAQEBAAAAAAAAAAABAjEDESFBEjIi/9oADAMBAAIRAxEAPwDZigkkoAgSigUAQRTUCXjednSXQaOqNBAdWc2i3g43n/la4dq9ksb587fer2egDgym6q4apqOutnspn/JWDLq7lXfmpKuccFHUzVFcFTBQ/OUhKgka5FpTG5JzUFhittd1fWxU2qVrsDxXURpHMpa3C2Opg9V9neXDex7C09kuHaVtoWEcybx/+gZ10KjW8bzHeQK3ZTLZDkkgkuVFFBFAgkiElQxBFBQIpqcU1Ak1EoIAV8+c6Nq6XSlfZTFOmPwsaT+Zzl9Br5j5Q2rpbXaqv0q1Ug7r7rvhCo4NU9btTKpxSJxQr60EJz7EXHGE1hRp7UEqexMCcHoLDUA+GlAHAncmTl3/AAVg0LmZqBtvYDm6nVA43b3k0rfF82c3ts6K3WZ//Kxs7qh6M/qX0mlSCnIJLlRRQRQJJJBUBBFBQIppTimlACgiUEFTStrFCjVrEwKdN9Qn7DS73L5ak3JOZz96+hOdO2dFoy0bXhtIf/R4Dvy3l892rBoCo55zSrnNIe0FHac+1BGMk6/sCYpAgEnWU5rgEo9YohvDxQTGoLpghRNfikG/VB80wZoO1oy0GmWvGbXtcPwmfcvqym+8A4ZEAjtxXyVZ39XFfUnJmualjszzm6z0SZ2mm2VajqBEIBELlRRQRQJJJJUNQRQUCKaUUEAKCSBQZxz4WiLLQpj59e8eDGH3vCxTSLsY2Ba1z3VJqWRmoCs6O2mPcsetzpcVRDSzlROBccApWZEq5omiXHXAxGzegjs+h6zhIaI2kgKw3QNfYwbycPAL1FlZMQ0zlABOZgGBvCtggDr4bIPHUu/zGdzrxdbQddgksBE4ua5hA35zvUp5P2gP6M04O1xaG95z7F7ZmGOJntEQnubTa0OYGtDTceGwAci120mD4p+T915IclrQMCaQ7XHyC4NvsrqNV1N+bTjGW0Ed61JhnKMdXjgF5bl5YDLLQBgf6TzrJEuYe4OHYEykhjlbXndH2d1aoykz2nuaxg+s8ho8SvrWyWcUmMptyY1rG8GgAeS+dOaWydJpKzmMGue//Gm8g98eC+kAuGgohIJBQEIoIoEkkkqGoIoKAFNTimlAECikgx3nmrA2uiz6FnLj+Oo4f9FkNpdJK0znbrzpCr9ShSb3gu/7rMTiVQXZALv8nqZDSZ8AfcuVo6zdLUA1TBK9PoixkTD2gAxEEzgDOY1HwXWMcZV0bI47s8IDMIJIOW2Spaj5MQJ7gM84+07vUFKg10EvdjGUDWcsDlDigYdnfM/SJ1OH0Y+aSexd+M/VunWa1sFuqJwO2MIk9+pcp1WmHkPDmsc04y7AgS3CYmQN2CsvpgXeq723B09IRdjACXYmTnuUDq4vzdENc7qkEiGuIwngEnV0ex0dC23q4swGuSTgYx157SuhpGzstVCpQJEuHUJiA8YtIAy60d65FstnR1Zp5kT4x7grujLY7Am/Ilpi+QLsgDA/RcDxS9dE77O5irIXWyo8j/xUHSDmH1HtA8GvW6heI5utHBr7VaBH9Z1ESAf/AFsN7PaXT2r2yyraHJIIqKKKCKBJJJIGoIoIAUESggBQKJQQfPPOfVm32w/Wpt7qVMe4rwTF7PnLMW21b67u5oA9681yfa012Xm3mg3nDhl4wrB3tD2G41o+dILuMjDxVyxU3sBLoBJyABxxwOe9WLO3Fv2hO8z+6bXrOwvSOJmCcoK16Ydm1qhGs8cGnGRm0D0VHUdvwjLDd8U5rb3lvlNMYDae3UqiGqxrvac0TGB1xv2/BNObo2u/UVcayCOq4nORmMu7LxVVzesR9Z2/5yfT4jLy+q4jJoDO4fGV2LFUABHWzBN3Em9hl+BcGymLzgM3OM6/aKu2Wo4lwZtp5TjN4bdqfF+tW5uNISX0jrAeBj7QgGOwjuXu1kPJC1GlaKLj9INIywcbhn/Ja8ssttML4ckgiuXYooJICkkkgagikUDSgiggBQTkAg+Zuca1NqW2u5uRq1I3w4ifBV+QVMOqWi82YspLftfKLOAfPxV7lzyYtlK1PabPXcC9xp1adN7qb2ucXNIeBAMHEalY5M6ONls1Z9WW1aj6bLmykwOcesMCS8tw1XN6s30ll/NpWm1Q7DJueULnUKpJxdTwMCmSb5GOLRjOM4TOHBWtGWcVXPvmGAOLyTGEmAdms9hQFj6Go3+o1weCGB4AfAj5nzm7xHw1tYyOk2zQ29DtmLXZpj2nOMcTABmM9m5XBVMXW3MLt0CPmkxgTvCiJcC49bcCGYYXTtjCCp2vSk+pVhtzo3XgS4Y6oyORzGtVbc65ecdQJ46xC6JbgAMjJc3D5xyEAYYTC5WmauLmwDLoA4Yz4BVFayHqhz8BqHvXT0IbzjEi9dkzj1SbvZJ8sc1xnPLjHcvSaJoXWzhq9HuT4Xx16NWOsDBF0gAO1FpG3VvOS2ujUvNa4fOAI7RKw9owxAx4Yytn0NUvWeidtJn6QuMmmC6igiuHZBEJJBAUkkkDSkUUEAKCKBQBAooFA1zQRBAIOYOIWL86dupttDqVMU2BgaHNbdF4xeJgZe0RiNQW1BYfyhcLS6serPSl75p06rocSGw17hHsxgCusducr504mj7Q2lZi7qF1R4cA4GD1wGyBmMS6N6p21160yTNxlNgOOPUDj4uce1XtLNpUKzqgaw3erQotAAbHz3AZANDQOJXKpPLnl7ji8lzuJ9y7ji+O5YWyRrE+asVMTInwy9BGx0opl20wPBOYcMNarlWfmDqmd2H8LzVsrS/PIGeJxPhC9DpCoGtc4nBrT5fuvIU33jvJ81KuMdTR9OSSvRWcQ2JxGPeudYqV0CDs1rqUDI46l05qRrjgOEbVtHJ7+1ofdM/SFjVzIbM9+IWy8nv7Wj92zyXGbTDboooIrNoKKCKBJJJIAgiUEAQKcggakkkgrW+tcpVH/RY93c0lYPa3OJa5j3h05tcWloJ1EY45di3LTzZs1YbaTx+UrGreQy42QLriMBicJ62zLBd4s83nbZZg2dpmZzlVLLJIywVy31r7xPhhiVa0RZBJe72Wkk7zqC1ZurVN0MYNTQTxOPrgog7b6wVV1e86Tr46059QZ7Na5quXymrAUSNbntb3dY/pXI0HSl152QyVrlQZFNusuJ7hB/UpbDRutA7/AF6yT6vfWLoU3YxOW/ZlkrNGsBr2d+vzVIYa8cEr0fBddOHco1Jz7Fs3Jk/6Wj9geGCwmyVj4QM/ety5ImbHQP1PeVxnPGnHfXYSSCSyaikkigSSSSBIIoIAgiUCgCCKCCtpFl6jUG2m8d7SsR0o0mmXTBkEHaAbsH/Ja/yrtvQ2Z8e08XG/izPdKy3SbC5kDA8BmTJG6QPBd4s83nbLYnVHgDPEknUNpU+lLQGxTZ7IkT9I63E8V0LWRZ2FgPXI67tYGMMHbivNuqTJie3atWRza2Pan3jv1qrPDfGY1+9SXpMDD1giqOlKl6qwH5rfFxPuAVyynHEatq5NetNd5+tA/D1fcupZ4yO/+FMVyWZ7I2bdnkmgTt37E0s29vu96c08Z1LpyuUh5fD9lunIz+yofYP6nLC6JOA2x68VuvI3+yofZP63Ljk0749uyigisWxBFAIoEkkkgNxK4U9JUR3ELikSQRXCh0ZUqCg8dzg1bjKYxMuODc8YC8Ba7Z0bYOLhkB7IO3eRkP4XsOca0/1mME9WmXHZrPwWb2+pE45+vLyW2E8YZ7c631S6Z1nHaqc7Phr9dynr5nv7BKrZ92GS7cw+NYUrIaC45NBJngoqYjsw2SVHpIltB5Azgb4JAPmO9SrI4liBcZOvE8TmvRUY6voes1xtFMkydS6zDiMcu71mpjpctpXO1eY7E9jTme4qItk6vUq5SESYGqO3BdOU9Buvgtz5HsPyKz/dg95JWG0jgN8fxwW78kP7Kz/dtXHJp3x7dS6UrpUiKybI7pRulPRhBHdKSkhJAUEUCgBCCKCAJIoIMq5wLR/qasnIMYBs6ocT4heEtJxnHDVjln8F6flhajUtdWdVVw15NkDwAXk7Wc/WtbY6efK+qVV+zdjj2JowBPnn2ykTIw15nFMqPMYjcMt5VBpGSNnrwXU09YOj0X0xGNesGU/s0i1ziOJcR+BUrHSdUe2m3N7mtaNUuIAHivc899gFChYKVNsUqfTtn60Urs7Seue9c5X46xn1l9hYQ2BnhPdgrtIHM9u3cq1OoB8fL1vVlr9cYHIfHuXUc1cABA9GFO2NXYf37FADkfQ9Zp4G7Ee8Kos0Drjf4wt75I/2Vn+6b5LAqLSIAOrGe3CFv3JIRYrMP+Fn6Vxyad8e3WRSSWTYQEUIRQJJJJAkCikUDUEUECUNrrimx1R2TWlx7BKmXmecO2GnZCGnF7g3KcAHPMjZ1PFEt6jJdJVi9znu9p73OcY1uzXItxLR2bdvmunVb7OvE+YXL0q7rRqw4a/ivQ8znahB1z35J0ieB90IOBn12otgiT63+Sjp6jm1snTaQoCMGE1XTJjowS3811e857qQdo9pIEttFMgnVLXtPmuPzLWKatorkeyxtNp3vN53gxveu9zztnRpn/epf9lnf6aY/wAsJY3zw7lZs9OYxyChpNVpmoepWkZ1ap04GeO7tnUn3dRzASAEa8JGOaIGY/ncqh9HhqHBfQXJf+zs/wBzT/SF8/szHDwH8r6A5LD/AEdn+5p/pC45NO+PbqIgIIhZNhSSSQJJJJAkCikUDUkkigC8rzkWLpbG52P9JwfhsgtI4dYftmvVLhcstM0rLZnmpDnPa5lOlreSI7GiZJVm0umOWhkBvade0/Beetz7xPrV/PcvS1Ie+ndyJ/eCO1eYtQF8gTgSBvAP8Ld51Zpx7PFPbnHlCAp/tq3pzGyYAxJw7lFbnzTWHorA15zrPfUPAHox+ie1R88LZ0a/dVpH80e9eo0JYvk9no0f9umxp4hok98rgc6lK9oyv9U0nd1ZhWX1t1/lgwbAA9YiPen08ZiMOKFU4DLHLcd6dSEatQHBbMVqngMzxy3p+sE8ccsNSY7ExhhOrsUjgIG7IYev5RElEy6I4Ze7dC+guTX9pZ/uaf6QsFsTQTO7LgFvugGFtmoA5ijSnjcauOR3x7X0UE5ZNiSSSQFJJJACgimoEgiggSwznBqvqW2ubxdceKYBOAwEMb44cTtW06QtPRseQJcGOc3ZIGA71iukqjS81CA433ETleOIcRtIgydnBd4bZ8mkdGn0TC95waJYDEyAY8SV5a6SSdvvxxXWt1rLvaOvBq5Ve0bAAtGZGjj7+K7HInR3yi3UKZEgPvv+yyahnjdjtXEbUJHitK5ndHXn1rU75oFGmd7oe/uAZ/kVMr1FxndaoSvMc5b40baOFMd9Vi9KCubymsHymyV6IEl9JwYPrgSz8wCxm210+cgO5OpmB67k2762p1MZnhOHravQ86012E8fP+UmtxGycfd5FNpuwGe/wT2Cdsevcg6/J6xdM8MAxc5jNfziB2a19AtAAgZDAcAs15rtDT/XeMGHq73ERjwBJ7QtKlZZ3uteOednIhNRC4aHJJIoEgikgaUESggCr1Hk5Kw5UnOB2gjMa+0IKWmK3Q0X1JBLWzLsWgSJJxGAicxlmFk2n7EWAQCBVqEnFstPWAaIcTgGwCcwNWIWwVGk4XmxsK41s0G10XG0miRfa1sNcA5rshgCQ27MZOISeFnbDa1nLeEZjKSJ7P3TC2ffOcrQ+VfJAs/q2dpuY36IxLQ4ybhzI3auGXhLVTA1gScjkZwwHitZWFnSq6Bs7vW9bzyE0b8lsNFhEOc3pKm29U60HeAWj8KxzkzowWi1UqLsQXAvGsMbJcTswBEreemC5zvx3hPq1KN5VhVRL5WbRh3LTRPya11BgGucalPKLr5Pg6R2LiNozh5LXeWmgflzGgENrUnF1InAOBwcwn6Jw7QFlL7JccWOa5jmuIc0yCCMYM5LbHJjlj0jpt6uI1/BTWWmXENEySIAzmcAISLDECSAbpIymd/YvU82lgFW1te5oLaTS8bLwgN7iZ7Aurk5kaxoDR/yaz06WsCX/bOLvHDsXRBUQengrB6J4enBNBRQPSQCKAoJJIAUEUEAUdWkHZjgdfYdSkKaUFSpZdjjwcAR7j4qs+g8fRPAkHuPxXRKjcg5NaqGjr4fby/yyXieU+itH1HXzWYx+ONN7cZ+pjJ7JWi1GKjXsTTm1vcE9PLt4Lkbo2nRqOqUhWcSI6WsLuBjBrYEDDWva03lSU7GBkFL0CgjbUT+kTujSuKiNxBz7Ds4Lz3KPkwy1m+0hlQYX46rhseOzA6l6RzFBVovzpls/ReDB7Rl4qaL6y6ryNttMR0QdiCXU3sIJwM4kHPavW8hNDVLGxxrAB77ouggkBskyRhJJPcF23C1nAMsw+salU/luDzVywWR7RNV4c4/RbdYNwEk95XVytczCReovKtMcq9NqsNCjpICpAowntQOCcF5SrVh7pm6HGY2y6B63q9T0m4EAgmAQ4ZF2eMnLUVzMnVx6d5JUbJbmuIYA/I4uGwD9+5JdJZZtcSSSRDSgUkkDSo3JJIIyo3JJII0kkkASKSSCNyQSSQOCkagkgmapGpJIJGp4SSQOlOBSSQEJJJIP//Z" alt="Джинси 1">
-        <div class="price">400.99 ₴</div>
-        <div class="product-heart">♡</div>
-      </div>
+        <div class="product">
+            <div class="img-wrapper">
+                <img src="https://i.pinimg.com/736x/60/19/3d/60193d9e300e2eaf2ded25b576e1dd49.jpg" alt="Jeans 1">
+                <div class="product-heart">♡</div>
+            </div>
+            <div class="price">400.99 ₴</div>
+            <button class="buy-btn" onclick="addToCart('Джинси Classic', 400.99)">Купити</button>
+        </div>
 
-      <div class="product">
-        <img src="data:image/jpeg;base64,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" alt="Джинси 2">
-        <div class="price">250.99 ₴</div>
-        <div class="product-heart">♡</div>
-      </div>
+        <div class="product">
+            <div class="img-wrapper">
+                <img src="https://i.pinimg.com/736x/60/19/3d/60193d9e300e2eaf2ded25b576e1dd49.jpg" alt="Jeans 2">
+                <div class="product-heart">♡</div>
+            </div>
+            <div class="price">250.99 ₴</div>
+            <button class="buy-btn" onclick="addToCart('Джинси Urban', 250.99)">Купити</button>
+        </div>
+        
+        </div>
+</div>
 
-      <div class="product">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcgDQB6pVm0e7qIoNEhFtjfZ3SnEN8eL8xVA&s" alt="Джинси 3">
-        <div class="price">300.99 ₴</div>
-        <div class="product-heart">♡</div>
-      </div>
-
-      <div class="product">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqnH_LlMVARf3zsKbo3OAcRswRdh4KAyTBvw&s" alt="Джинси 4">
-        <div class="price">200.99 ₴</div>
-        <div class="product-heart">♡</div>
-      </div>
-
-      <div class="product">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrjQT0Wc5sr161cwnAKYnW-dxjJzLyPFDpzw&s" alt="Джинси 5">
-        <div class="price">250.99 ₴</div>
-        <div class="product-heart">♡</div>
-      </div>
-
-      <div class="product">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm6_ufLPCSRP9bfCCS5CtuLRjLl-qe1LvKn0-tonZ4ZA&s" alt="Джинси 6">
-        <div class="price">450.99 ₴</div>
-        <div class="product-heart">♡</div>
-      </div>
-    </div>
-  </div>
-
-  <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
